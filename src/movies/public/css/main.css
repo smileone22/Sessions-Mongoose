@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+}
+
+
+body {
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    border: 1px solid black;
+    align-items: center;
+    font-size: medium;
+}
+
+th {
+    background-color: lightgrey;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    border: 1px solid black; 
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit
+    
+}
+tr {
+    display: table-row;
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(78, 78, 77);
+    font-size: small;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(78, 78, 77);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color:red;
+  }
